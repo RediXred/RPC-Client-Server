@@ -27,24 +27,20 @@ Once authentication is successful, the client can execute the following commands
 ### Server
 1. Compile and run the server application:
    ```sh
-   server.exe
+   serverRPC.exe
    ```
 2. Ensure the server is running and accessible on the network.
 
 ### Client
 1. Compile and run the client application:
    ```sh
-   client.exe
+   clientRPC.exe
    ```
 2. Provide the necessary credentials (server IP, username, and password).
 3. Use the available commands to interact with the server.
 
 ## Testing
-Unit tests are provided in the **unit_tests** folder. To execute the tests:
-```sh
-cd unit_tests
-run_tests.exe
-```
+Unit tests are provided in the **unit_tests** folder in **test.cpp** file.
 
 ## Security Considerations
 - The server uses **impersonation** to execute operations on behalf of the authenticated user.
