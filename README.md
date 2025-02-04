@@ -47,9 +47,6 @@ Unit tests are provided in the **unit_tests** folder in **test.cpp** file.
 - Ensure proper network security configurations to protect against unauthorized access.
 - It is recommended to use **encrypted communication** (e.g., TLS) to enhance security.
 
-## License
-This project is licensed under the MIT License.
-
 ## Author
 XRediX
 
